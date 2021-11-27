@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=PT+Sans&family=Roboto:wght@400;700&display=swap');
+
+:root
+{
+	--theme: #098935;
+	--theme-light: #c4eebb;
+}
+
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+}
+
+body
+{
+	background: url("images/bg.png");
+}
+
+
+header
+{
+	display: flex;
+	padding: 20px;
+	background-color: var(--theme);
+	color: white;
+}
+
+header #home
+{
+	flex-grow: 0;
+	display: inline-block;
+	font-size: 20px;
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+	border-radius: 3px;
+	line-height: 40px;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+header #home:hover
+{
+	color: #2cff2c;
+}
+
+header h1
+{
+	flex-grow: 1;
+	text-align: center;
+}
+
+
+.btn
+{
+	background-color: white;
+	font-size: 20px;
+	color: var(--theme);
+	border: 2px solid var(--theme);
+	padding: 10px;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.5s;
+	width: 100px;
+	margin: 10px;
+	font-weight: bold;
+}
+
+.btn:hover
+{
+	box-shadow: 2px 2px 3px grey;
+	background-color: var(--theme);
+	color: white;
+}
+
+#game-modes-wrapper
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.mode
+{
+	padding: 20px;
+	margin: 10px;
+	width: 300px;
+	height: 150px;
+	text-align: center;
+	background-color: white;
+	box-shadow: 2px 2px 4px gray;
+}
+
+.mode .btn
+{
+	margin: 15px;
+}
+
+
+
+
+#game-wrapper
+{
+	display: none;
+	padding-top: 15px;
+}
+
+#score-wrapper
+{
+	margin: 20px 0%;
+	font-size: 20px;
+	display: flex;
+}
+
+#score-wrapper > div
+{
+	/* flex-grow: 1; */
+	width: 33%;
+	text-align: center;
+}
+
+#timer
+{
+	color: red;
+	font-weight: bold;
+	margin-left: 20px;
+	font-size: 20px;
+	background-color: white;
+	width: fit-content;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+canvas
+{
+	display: block;
+	margin: auto;
+	border: 5px solid var(--theme);
+	background: url("images/board.png");
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Snake Game</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	
+	<header>
+		<a href="/index.html" id="home">Home</a>
+		<h1>Snake Game</h1>
+	</header>
+	
+	<main>
+		
+		<div id="game-modes-wrapper">
+			<div id="mode-1" class="mode">
+				<h3>Border Mode</h3>
+				<button id="start-game-1" class="btn">Start</button>
+			</div>
+			
+			<div id="mode-2" class="mode">
+				<h3>Borderless Mode</h3>
+				<button id="start-game-2" class="btn">Start</button>
+			</div>
+			
+			<div id="mode-3" class="mode">
+				<h3>Peaceful Mode</h3>
+				<button id="start-game-3" class="btn">Start</button>
+			</div>
+			
+			<div id="mode-4" class="mode">
+				<h3>Winged Mode</h3>
+				<button id="start-game-4" class="btn">Start</button>
+			</div>
+			
+			<div id="mode-5" class="mode">
+				<h3>Cheese Mode</h3>
+				<button id="start-game-5" class="btn">Start</button>
+			</div>
+			
+			<div id="mode-6" class="mode">
+				<h3>Timer Mode</h3>
+				<button id="start-game-6" class="btn">Start</button>
+			</div>
+			
+			<div id="mode-7" class="mode">
+				<h3>Dual Mode</h3>
+				<button id="start-game-7" class="btn">Start</button>
+			</div>
+			
+			<div id="mode-8" class="mode">
+				<h3>Double-headed Mode</h3>
+				<button id="start-game-8" class="btn">Start</button>
+			</div>
+			
+			<div id="mode-9" class="mode">
+				<h3>Portal Mode</h3>
+				<button id="start-game-9" class="btn">Start</button>
+			</div>
+		</div>
+		
+		
+		<div id="game-wrapper">
+			<div id="score-wrapper">
+				<div><span>Score: </span><span id="total-score">0</span></div>
+				<div><span>Length: </span><span id="length-score">4</span></div>
+				<div><span>Fruits: </span><span id="food-score">0</span></div>
+			</div>
+			<canvas width="300" height="400"></canvas>
+		</div>
+	</main>
+	
+	
+	
+	<script src="js/utils/snake.js"></script>
+	<script src="js/utils/snakeCheesy.js"></script>
+	<script src="js/utils/food.js"></script>
+	<script src="js/utils/foodWinged.js"></script>
+	<script src="js/utils/score.js"></script>
+	<script src="js/utils/gameCanvas.js"></script>
+	<script src="js/utils/sounds.js"></script>
+	
+	<script src="js/game/mainGame1.js"></script>
+	<script src="js/game/mainGame2.js"></script>
+	<script src="js/game/mainGame3.js"></script>
+	<script src="js/game/mainGame4.js"></script>
+	<script src="js/game/mainGame5.js"></script>
+	<script src="js/game/mainGame6.js"></script>
+	<script src="js/game/mainGame7.js"></script>
+	<script src="js/game/mainGame8.js"></script>
+	<script src="js/game/mainGame9.js"></script>
+	
+	<script src="js/init/gameInit.js"></script>
+	<script src="js/init/loader.js"></script>
+	
+</body>
+</html>
