@@ -16,7 +16,7 @@ function MainGame6()
 		gameSound.init();
 		food.update();
 		food.draw();
-		this.timeLeft = 12;
+		this.timeLeft = 90;
 		
 		this.initEventListeners();
 		
