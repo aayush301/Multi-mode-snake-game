@@ -11,3 +11,6 @@ This Snake Game consists of 9 modes, with each mode having its own features:
 - Dual Mode
 - Double-headed Mode
 - Portal Mode
+
+### Play
+The game can be played directly on the following link: https://aayush301.github.io/Snake-Game-9-modes/
